@@ -1,0 +1,36 @@
+/*home page*/
+#missionsection{
+    height: 600px;
+}
+.containercard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* contact page */
+.container{
+    height: 74vh;
+}
+h1{
+    font-size: 50px;
+}
+.myForm{
+    margin-top: 30px;
+}
+.myInput {
+    margin: 10px;
+    width: 62%;
+    height: 40px;
+    font-size: 26px;
+}
+
+.btn{
+    padding: 9px;
+    font-size: 30px;
+}

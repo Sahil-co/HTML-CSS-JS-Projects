@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two:wght@700&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 25px;
+  margin-right: 60px;
+}
+
+#logo img{
+  height: 42px;
+  filter: invert(1);
+}
+
+#navbar{
+  background-color:#f13e47;
+  padding: 13px 14px;
+  font-family: 'Lobster Two', cursive;
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#navbar li{
+  list-style: none;
+}
+
+#navbar li a{
+  color: white;
+  text-decoration: none;
+  padding: 13px 14px;
+  font-size: 25px;
+}
+#navbar li a:hover{
+  color: black;  
+}
+#introSection{
+  padding-bottom: 55px;
+  color: white;
+  background: url('static/bg.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 50px;
+  align-items: center;
+  height: 425px;
+  background-color: red;
+}
+#introSection div.small{
+  font-size: 40px;
+  padding: 4px;
+}
+
+#missionSection{
+  height: 341px;
+  width: 88%;
+  margin: auto;
+}
+
+#missionSection h2{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 2rem;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    background-color:  #fbd6d6c7;
+    border-radius: 10px;
+    width: 30%;
+    height: 223px;
+    margin: 22px;
+    box-shadow: 1px 1px 21px 5px rgb(179, 174, 174);
+}
+
+.card h3{
+  text-align: center;
+  margin: 0 12px;
+  margin-top: 24px;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.5rem;
+}
+
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img{
+  height: 131px;
+  padding: 0 14px;
+  margin: 5px 9px;
+}
+
+.card-img img{
+  height: inherit; 
+}
+
+.card-content{
+  margin: 8px;
+}
+
+.card-content p{
+  font-size: 18px;
+}
+
+#sponsorsSection{
+  height: 270px;
+  background-color: #fbd6d6c7;
+}
+
+#sponsorsSection h2{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 2rem;
+}
+
+#sponsors{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.spImage{
+  height: 130px;
+  margin: 20px;
+}
+
+#footerId{
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+}

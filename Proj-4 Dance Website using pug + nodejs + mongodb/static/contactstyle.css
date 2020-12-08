@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding-top: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 120vh;
+    background: url('/static/img/bg_contact2.jpg') no-repeat center center/cover;
+    opacity: 0.8;
+}
+
+.myForm{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn{
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: rgb(250, 62, 62);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
